@@ -103,4 +103,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/xiaomi/generic/generic-vendor.mk)
+$(call inherit-product, vendor/xiaomi/pearl/pearl-vendor.mk)

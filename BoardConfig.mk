@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/generic
+DEVICE_PATH := device/xiaomi/pearl
 
 # A/B
 AB_OTA_UPDATER := true
@@ -42,8 +42,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CONFIG := generic_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/generic
+TARGET_KERNEL_CONFIG := pearl_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6896-common
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
@@ -99,4 +99,4 @@ BOARD_AVB_VENDOR_BOOT_ROLLBACK_INDEX_LOCATION := 1
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit the proprietary files
-include vendor/xiaomi/generic/BoardConfigVendor.mk
+include vendor/xiaomi/pearl/BoardConfigVendor.mk
