@@ -3294,6 +3294,7 @@ vendor/lib64/libaudioprimarydevicehalifclient.so
 vendor/lib64/libaudiosmartpamtk.so
 vendor/lib64/libaurisysdemo.so
 vendor/lib64/libbeauty_face_interface.so
+vendor/lib64/libc++_shared.so
 vendor/lib64/libbessound_hd_mtk_vendor.so
 vendor/lib64/libbinderdebug.so
 vendor/lib64/libblisrc32_vendor.so
