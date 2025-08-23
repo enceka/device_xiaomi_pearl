@@ -61,7 +61,9 @@ blob_fixups: blob_fixups_user_type = {
         'android.hardware.light-V1-ndk_platform.so', 'android.hardware.light-V1-ndk.so'
     ),
 
-	'vendor/bin/hw/android.hardware.gnss-service.mediatek': blob_fixup()
+	(
+	'vendor/bin/hw/android.hardware.gnss-service.mediatek',
+	'vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so'): blob_fixup()
     .replace_needed(
         'android.hardware.gnss-V1-ndk_platform.so','android.hardware.gnss-V1-ndk.so'
     ),
@@ -89,9 +91,6 @@ blob_fixups: blob_fixups_user_type = {
 	'vendor/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service': blob_fixup()
     .replace_needed(
         'android.hardware.vibrator-V1-ndk_platform.so','android.hardware.vibrator-V1-ndk.so'
-    )
-    .replace_needed(
-        'vendor.hardware.vibratorfeature.IVibratorExt-V1-ndk_platform.so','vendor.hardware.vibratorfeature.IVibratorExt-V1-ndk.so'
     ),
 }  # fmt: skip
 

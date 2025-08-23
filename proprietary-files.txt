@@ -947,6 +947,7 @@ vendor/bin/hw/android.hardware.gnss-service.mediatek
 vendor/etc/init/android.hardware.gnss-service.mediatek.rc
 vendor/lib/hw/gps.default.so
 vendor/lib64/hw/gps.default.so
+vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so
 
 # GNSS configs
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml
