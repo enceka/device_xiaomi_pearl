@@ -30,7 +30,12 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
-
+    ('vendor/bin/hw/android.hardware.security.keymint@1.0-service.mitee', 'vendor/lib64/libkeymint.so'): blob_fixup()
+        .replace_needed('android.hardware.security.keymint-V1-ndk_platform.so', 'android.hardware.security.keymint-V1-ndk.so')
+        .replace_needed('android.hardware.security.sharedsecret-V1-ndk_platform.so', 'android.hardware.security.sharedsecret-V1-ndk.so')
+        .replace_needed('android.hardware.security.secureclock-V1-ndk_platform.so', 'android.hardware.security.secureclock-V1-ndk.so'),
+	('vendor/lib64/libmt_mitee@1.3.so', 'vendor/lib64/libkeymint_support.so', 'vendor/lib64/lib_android_keymaster_keymint_utils.so'): blob_fixup()
+        .replace_needed('android.hardware.security.keymint-V1-ndk_platform.so', 'android.hardware.security.keymint-V1-ndk.so')
 }  # fmt: skip
 
 module = ExtractUtilsModule(
