@@ -86,8 +86,6 @@ vendor/lib64/soundfx/libswvqe.so
 vendor/lib64/libvibrator.so
 
 # Audio configs
-etc/audio_effects.conf
-etc/audio_effects.xml
 system_ext/etc/a2dp_audio_policy_configuration.xml
 system_ext/etc/a2dp_in_audio_policy_configuration.xml
 system_ext/etc/audio_policy_configuration.xml
@@ -1404,28 +1402,6 @@ vendor/lib/hw/local_time.default.so
 vendor/lib64/hw/local_time.default.so
 
 # Media
-etc/seccomp_policy/mediacodec.policy
-lib/graphicbuffersource-aidl-ndk.so
-lib/libmedia_codeclist.so
-lib/libstagefright.so.hbtf
-lib/libstagefright_aidl_bufferpool2.so
-lib/libstagefright_bufferpool@2.0.1.so
-lib/libstagefright_bufferpool@2.0.1.so.hbtf
-lib/libstagefright_codecbase.so
-lib/libstagefright_codecbase.so.hbtf
-lib/libstagefright_foundation.so.hbtf
-lib/libstagefright_framecapture_utils.so
-lib/libstagefright_framecapture_utils.so.hbtf
-lib/libstagefright_graphicbuffersource_aidl.so
-lib/libstagefright_surface_utils.so
-lib64/graphicbuffersource-aidl-ndk.so
-lib64/libmedia_codeclist.so
-lib64/libstagefright_aidl_bufferpool2.so
-lib64/libstagefright_bufferpool@2.0.1.so
-lib64/libstagefright_codecbase.so
-lib64/libstagefright_framecapture_utils.so
-lib64/libstagefright_graphicbuffersource_aidl.so
-lib64/libstagefright_surface_utils.so
 system_ext/lib/libged_sys.so
 system_ext/lib/libgralloc_extra_sys.so
 system_ext/lib/libsf_cpupolicy.so
@@ -1543,7 +1519,6 @@ vendor/lib64/se_nq_extn_client-v1.so
 vendor/lib64/vendor.nxp.hardware.nfc@2.0.so
 
 # NFC configs
-etc/libnfc-nci.conf
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp-pnscr.conf
 vendor/etc/libnfc-nxp.conf
@@ -2252,19 +2227,6 @@ vendor/bin/wlan_assistant
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/bin/xiaomi_ir_test
-vendor/data/model/AIHDR.dla
-vendor/data/model/SR144*256.dla
-vendor/data/model/SR240*432.dla
-vendor/data/model/SR270*480.dla
-vendor/data/model/SR360*640.dla
-vendor/data/model/SR376*896.dla
-vendor/data/model/SR450*800.dla
-vendor/data/model/SR480*864.dla
-vendor/data/model/SR486*864.dla
-vendor/data/model/SR504*896.dla
-vendor/data/model/SR540*960.dla
-vendor/data/model/SR720*1280.dla
-vendor/data/model/scene_detection.dla
 vendor/etc/apdb/APDB_MT6895___W2230
 vendor/etc/apdb/APDB_MT6895___W2230_ENUM
 vendor/etc/init/aee_aedv64_v2.rc
