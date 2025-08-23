@@ -792,6 +792,7 @@ vendor/lib/libmiSensorCtrl.so
 vendor/lib/libmiXmlParser.so
 vendor/lib/libmi_dspp.so
 vendor/lib/libmml.so
+vendor/lib/libpixelflinger.so
 vendor/lib/libpaperMode.so
 vendor/lib/libpqframework.so
 vendor/lib/libsdr2hdr.so
