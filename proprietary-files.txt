@@ -1536,6 +1536,14 @@ vendor/etc/wifi/wpa_supplicant.conf
 vendor/etc/wifi/wpa_supplicant_overlay.conf
 
 # Miscellaneous
+odm/bin/mrmd_mitee
+odm/bin/vib_cal
+odm/lib/libhdrmode.so
+odm/lib/libmiriskmanager_mitee.so
+odm/lib/vendor.xiaomi.hardware.mrm-V1-ndk_platform.so
+odm/lib64/libhdrmode.so
+odm/lib64/libmiriskmanager_mitee.so
+odm/lib64/vendor.xiaomi.hardware.mrm-V1-ndk_platform.so
 vendor/bin/hw/mfp-daemon
 vendor/bin/hw/tetheroffloadservice
 vendor/bin/hw/vendor.mediatek.hardware.aee@1.1-service
