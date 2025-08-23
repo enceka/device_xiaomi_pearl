@@ -1224,10 +1224,7 @@ vendor/etc/init/android.hardware.security.keymint-service.mitee.rc
 vendor/etc/vintf/manifest/android.hardware.security.keymint-service.mitee.xml
 vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.mitee.xml
 vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.mitee.xml
-vendor/lib64/lib_android_keymaster_keymint_utils.so
-vendor/lib64/libcppbor_external.so
 vendor/lib64/libcppcose_rkp.so
-vendor/lib64/libkeymint.so
 
 # Sensors
 vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek
@@ -3358,7 +3355,6 @@ vendor/lib64/libhwm.so
 vendor/lib64/libicd_decoder.so
 vendor/lib64/libifcutils_mtk.so
 vendor/lib64/libipsec_ims_shr.so
-vendor/lib64/libkeymint_support.so
 vendor/lib64/libkmsetkey.so
 vendor/lib64/liblogwrap_vendor.so
 vendor/lib64/libmediautils_vendor.so
