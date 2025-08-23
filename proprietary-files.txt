@@ -629,6 +629,7 @@ vendor/lib64/libmpbase.so
 vendor/lib64/libmtkcam_3rdcalibration.so
 vendor/lib64/libmtkcam_thirdparty.customzone.so
 vendor/lib64/libmtkisp_metadata_v2.so
+vendor/lib64/libpixelflinger.so
 vendor/lib64/librfs_warp.so
 vendor/lib64/libvideofilter_only.so
 vendor/lib64/libvidhance.so
