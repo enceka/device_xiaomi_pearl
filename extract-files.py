@@ -30,57 +30,38 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
-    (
-	'vendor/bin/hw/android.hardware.security.keymint@1.0-service.mitee', 
-	'vendor/lib64/libkeystore-engine-wifi-hidl.so'): blob_fixup()
-		.replace_needed('android.system.keystore2-V1-ndk_platform.so', 'android.system.keystore2-V1-ndk.so'),
-	
-	'vendor/lib64/libmt_mitee@1.3.so': blob_fixup()
-    .replace_needed(
-        'android.hardware.security.keymint-V1-ndk_platform.so','android.hardware.security.keymint-V1-ndk.so'
-    ),
+   	'vendor/bin/hw/android.hardware.security.keymint@1.0-service.mitee': blob_fixup()
+		.replace_needed('android.system.keystore2-V1-ndk_platform.so', 'android.system.keystore2-V1-ndk.so')
+		.replace_needed('android.hardware.security.keymint-V1-ndk_platform.so','android.hardware.security.keymint-V4-ndk.so'),
+
+	('vendor/lib64/libmt_mitee@1.3.so',
+	'vendor/lib64/libkeymint_support.so'): blob_fixup()
+    .replace_needed('android.hardware.security.keymint-V1-ndk_platform.so','android.hardware.security.keymint-V4-ndk.so'),
 
 	'vendor/lib64/libkeystore-engine-wifi-hidl.so': blob_fixup()
-    .replace_needed(
-        'android.system.keystore2-V1-ndk_platform.so','android.system.keystore2-V1-ndk.so'
-    ),
+    .replace_needed('android.system.keystore2-V1-ndk_platform.so','android.system.keystore2-V1-ndk.so'),
 
 	'vendor/bin/factory': blob_fixup()
-    .replace_needed(
-        'android.hardware.light-V1-ndk_platform.so', 'android.hardware.light-V1-ndk.so'
-    ),
+    .replace_needed('android.hardware.light-V1-ndk_platform.so', 'android.hardware.light-V1-ndk.so'),
 	
-	(
-	'vendor/bin/hw/android.hardware.gnss-service.mediatek',
+	('vendor/bin/hw/android.hardware.gnss-service.mediatek',
 	'vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so'): blob_fixup()
-    .replace_needed(
-        'android.hardware.gnss-V1-ndk_platform.so','android.hardware.gnss-V1-ndk.so'
-    ),
+    .replace_needed('android.hardware.gnss-V1-ndk_platform.so','android.hardware.gnss-V1-ndk.so'),
 
 	'vendor/bin/hw/android.hardware.lights-service.mediatek': blob_fixup()
-    .replace_needed(
-        'android.hardware.light-V1-ndk_platform.so','android.hardware.light-V1-ndk.so'
-    ),
+    .replace_needed('android.hardware.light-V1-ndk_platform.so','android.hardware.light-V1-ndk.so'),
 
 	'vendor/bin/hw/android.hardware.memtrack-service.mediatek': blob_fixup()
-    .replace_needed(
-        'android.hardware.memtrack-V1-ndk_platform.so','android.hardware.memtrack-V1-ndk.so'
-    ),
+    .replace_needed('android.hardware.memtrack-V1-ndk_platform.so','android.hardware.memtrack-V1-ndk.so'),
 
 	'vendor/bin/hw/android.hardware.vibrator-service.mediatek': blob_fixup()
-    .replace_needed(
-        'android.hardware.vibrator-V2-ndk_platform.so','android.hardware.vibrator-V2-ndk.so'
-    ),
+    .replace_needed('android.hardware.vibrator-V2-ndk_platform.so','android.hardware.vibrator-V2-ndk.so'),
 
 	'vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service': blob_fixup()
-    .replace_needed(
-        'android.hardware.power-V2-ndk_platform.so','android.hardware.power-V2-ndk.so'
-    ),
+    .replace_needed('android.hardware.power-V2-ndk_platform.so','android.hardware.power-V2-ndk.so'),
 
 	'vendor/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service': blob_fixup()
-    .replace_needed(
-        'android.hardware.vibrator-V1-ndk_platform.so','android.hardware.vibrator-V1-ndk.so'
-    ),
+    .replace_needed('android.hardware.vibrator-V1-ndk_platform.so','android.hardware.vibrator-V1-ndk.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
