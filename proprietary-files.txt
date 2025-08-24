@@ -1575,14 +1575,11 @@ vendor/bin/SoterProvisioningTool_mitee
 vendor/bin/aee_aedv64_v2
 vendor/bin/aee_dumpstatev_v2
 vendor/bin/aeev_v2
-vendor/bin/applypatch
 vendor/bin/atci_service
 vendor/bin/atcid
 vendor/bin/audiocmdservice_atci
 vendor/bin/autobt
 vendor/bin/bip_ap
-vendor/bin/boringssl_self_test32
-vendor/bin/boringssl_self_test64
 vendor/bin/bt_dump
 vendor/bin/cameratest
 vendor/bin/ccci_fsd
