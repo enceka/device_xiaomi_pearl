@@ -1441,7 +1441,6 @@ vendor/bin/soterd
 vendor/bin/stp_dump3
 vendor/bin/tcpdump-vendor
 vendor/bin/tee-supplicant
-vendor/bin/test-nusensors
 vendor/bin/testgameserver
 vendor/bin/thermal_core
 vendor/bin/thermal_intf
