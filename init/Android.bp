@@ -153,9 +153,9 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "ueventd.rc",
+    name: "ueventd.mt6895.rc",
     filename: "ueventd.rc",
-    src: "ueventd.rc",
+    src: "ueventd.mt6895.rc",
     vendor: true,
 }
 

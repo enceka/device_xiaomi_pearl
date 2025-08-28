@@ -95,7 +95,7 @@ PRODUCT_PACKAGES += \
     meta_init.rc \
     meta_init.vendor.rc \
     multi_init.rc \
-    ueventd.rc
+    ueventd.mt6895.rc
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
