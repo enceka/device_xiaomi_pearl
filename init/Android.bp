@@ -154,6 +154,13 @@ prebuilt_etc {
 
 // fstab
 prebuilt_etc {
+    name: "fstab.mt6895",
+    src: "fstab.mt6895",
+    vendor: true,
+    vendor_ramdisk_available: true,
+}
+
+prebuilt_etc {
     name: "fstab.zram",
     src: "fstab.zram",
     vendor: true,
