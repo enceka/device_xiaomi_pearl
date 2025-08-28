@@ -1456,9 +1456,7 @@ vendor/etc/init/init.bt_drv.rc
 vendor/etc/init/init.cccifsd.rc
 vendor/etc/init/init.cccimdinit.rc
 vendor/etc/init/init.cccirpcd.rc
-vendor/etc/init/init.charge_logger.rc
 vendor/etc/init/init.connfem.rc
-vendor/etc/init/init.conninfra.rc
 vendor/etc/init/init.factory.rc
 vendor/etc/init/init.fmradio_drv.rc
 vendor/etc/init/init.fpsgo.rc
@@ -1595,9 +1593,6 @@ vendor/etc/ecc_list_preference.xml
 vendor/etc/elliptic_sensor.xml
 vendor/etc/excluded-input-devices.xml
 vendor/etc/factory.ini
-vendor/etc/fstab.emmc
-vendor/etc/fstab.enableswap
-vendor/etc/fstab.mt6895
 vendor/etc/fstb.cfg
 vendor/etc/gbe.cfg
 vendor/etc/init.insmod.mt6895.cfg
