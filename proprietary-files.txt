@@ -15,9 +15,6 @@ vendor/lib/hw/audio.r_submix.default.so
 vendor/lib/hw/audio.r_submix.mediatek.so
 vendor/lib/hw/audio.r_submix.mt6895.so
 vendor/lib/hw/audio.usb.default.so
-vendor/lib/audio_common-aidl-cpp.so
-vendor/lib/audioclient-types-aidl-cpp.so
-vendor/lib/framework-permission-aidl-cpp.so
 vendor/lib/libaedv.so
 vendor/lib/libalsautils.so
 vendor/lib/libaudioclient_aidl_conversion.so
@@ -31,7 +28,6 @@ vendor/lib/libshmemcompat.so
 vendor/lib/libshmemutil.so
 vendor/lib/libvoiprec.so
 vendor/lib/libxlog.so
-vendor/lib/shared-file-region-aidl-cpp.so
 vendor/lib/vendor.mediatek.hardware.audio@6.1.so
 vendor/lib/vendor.mediatek.hardware.audio@7.1.so
 vendor/lib/vendor.mediatek.hardware.audio@8.1.so
@@ -44,9 +40,6 @@ vendor/lib64/hw/audio.r_submix.default.so
 vendor/lib64/hw/audio.r_submix.mediatek.so
 vendor/lib64/hw/audio.r_submix.mt6895.so
 vendor/lib64/hw/audio.usb.default.so
-vendor/lib64/audio_common-aidl-cpp.so
-vendor/lib64/audioclient-types-aidl-cpp.so
-vendor/lib64/framework-permission-aidl-cpp.so
 vendor/lib64/libaedv.so
 vendor/lib64/libalsautils.so
 vendor/lib64/libaudioclient_aidl_conversion.so
@@ -60,7 +53,6 @@ vendor/lib64/libshmemcompat.so
 vendor/lib64/libshmemutil.so
 vendor/lib64/libvoiprec.so
 vendor/lib64/libxlog.so
-vendor/lib64/shared-file-region-aidl-cpp.so
 vendor/lib64/vendor.mediatek.hardware.audio@6.1.so
 vendor/lib64/vendor.mediatek.hardware.audio@7.1.so
 vendor/lib64/vendor.mediatek.hardware.audio@8.1.so
