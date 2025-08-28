@@ -72,11 +72,8 @@ $(call soong_config_set,power_libperfmgr,mode_extension_lib,//$(LOCAL_PATH):libp
 
 # Init
 PRODUCT_PACKAGES += \
-    fstab.enableswap \
-    factory_init.connectivity.common.rc \
-    factory_init.connectivity.rc \
-    factory_init.project.rc \
-    factory_init.rc \
+    fstab.mt6895 \
+    fstab.zram \
     init.aee.rc \
     init.batterysecret.rc \
     init.cgroup.rc \
@@ -98,9 +95,7 @@ PRODUCT_PACKAGES += \
     meta_init.rc \
     meta_init.vendor.rc \
     multi_init.rc \
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.enableswap:$(TARGET_VENDOR_RAMDISK_OUT)/first_stage_ramdisk/fstab.enableswap
+    ueventd.rc
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
