@@ -21,8 +21,6 @@ vendor/lib/libbwc.so
 vendor/lib/libladder.so
 vendor/lib/libmiresample.so
 vendor/lib/libmispowerop.so
-vendor/lib/libshmemcompat.so
-vendor/lib/libshmemutil.so
 vendor/lib/libvoiprec.so
 vendor/lib/libxlog.so
 vendor/lib/vendor.mediatek.hardware.audio@6.1.so
@@ -43,8 +41,6 @@ vendor/lib64/libbwc.so
 vendor/lib64/libladder.so
 vendor/lib64/libmiresample.so
 vendor/lib64/libmispowerop.so
-vendor/lib64/libshmemcompat.so
-vendor/lib64/libshmemutil.so
 vendor/lib64/libvoiprec.so
 vendor/lib64/libxlog.so
 vendor/lib64/vendor.mediatek.hardware.audio@6.1.so
