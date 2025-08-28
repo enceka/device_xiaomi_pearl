@@ -2263,7 +2263,6 @@ vendor/lib64/libwapi.so
 vendor/lib64/libwifitest.so
 vendor/lib64/libwpa_client.so
 vendor/lib64/libwpfa.so
-vendor/lib64/libz_stable.so
 vendor/lib64/ls_nq_client-v1.so
 vendor/lib64/meta_wifi_data.so
 vendor/lib64/nwk_opt_imp.so
