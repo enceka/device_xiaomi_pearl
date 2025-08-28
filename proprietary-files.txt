@@ -1583,7 +1583,6 @@ vendor/bin/dconfig
 vendor/bin/ddr_eye
 vendor/bin/dexecutor
 vendor/bin/displayfeature
-vendor/bin/dmabuf_dump
 vendor/bin/dmc_core
 vendor/bin/doeapp-memtester
 vendor/bin/doeapp-sat
