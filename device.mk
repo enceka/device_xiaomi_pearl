@@ -70,26 +70,7 @@ PRODUCT_COPY_FILES += \
 
 $(call soong_config_set,power_libperfmgr,mode_extension_lib,//$(LOCAL_PATH):libperfmgr-ext-xiaomi)
 
-# Rootdir
-PRODUCT_PACKAGES += \
-    capture.sh \
-    capture_headsetmic.sh \
-    headset_detect.sh \
-    init.insmod.sh \
-    playback.sh \
-    playback_1k.sh \
-    playback_headset.sh \
-    setup_backmic2headphone.sh \
-    setup_headsetmic2headphone.sh \
-    setup_headsetmic2rcv.sh \
-    setup_mainmic2headphone.sh \
-    setup_rcv2backmic.sh \
-    setup_rcv2mainmic.sh \
-    setup_rcv2topmic.sh \
-    setup_topmic2headphone.sh \
-    teardown_loopback.sh \
-    vow_restart.sh \
-
+# Init
 PRODUCT_PACKAGES += \
     fstab.enableswap \
     factory_init.connectivity.common.rc \
