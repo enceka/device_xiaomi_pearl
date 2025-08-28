@@ -1920,7 +1920,6 @@ vendor/lib/librcs_volte_core.so
 vendor/lib/librgbwlightsensor.so
 vendor/lib/librpc.so
 vendor/lib/librt_extamp_intf.so
-vendor/lib/libruy.so
 vendor/lib/libscltm.so
 vendor/lib/libsensor_cal.so
 vendor/lib/libsimlock.so
@@ -2238,7 +2237,6 @@ vendor/lib64/libremosaiclib.so
 vendor/lib64/librgbwlightsensor.so
 vendor/lib64/librpc.so
 vendor/lib64/librt_extamp_intf.so
-vendor/lib64/libruy.so
 vendor/lib64/libscltm.so
 vendor/lib64/libsdk_sr.so
 vendor/lib64/libsensor_cal.so
