@@ -1456,7 +1456,9 @@ vendor/etc/init/init.bt_drv.rc
 vendor/etc/init/init.cccifsd.rc
 vendor/etc/init/init.cccimdinit.rc
 vendor/etc/init/init.cccirpcd.rc
+vendor/etc/init/init.charge_logger.rc
 vendor/etc/init/init.connfem.rc
+vendor/etc/init/init.conninfra.rc
 vendor/etc/init/init.factory.rc
 vendor/etc/init/init.fmradio_drv.rc
 vendor/etc/init/init.fpsgo.rc

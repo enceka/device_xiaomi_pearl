@@ -77,7 +77,6 @@ PRODUCT_PACKAGES += \
     init.aee.rc \
     init.batterysecret.rc \
     init.cgroup.rc \
-    init.charge_logger.rc \
     init.connectivity.common.rc \
     init.connectivity.rc \
     init.mi_thermald.rc \
@@ -87,7 +86,6 @@ PRODUCT_PACKAGES += \
     init.mtkgki.rc \
     init.project.rc \
     init.sensor_2_0.rc \
-    init_conninfra.rc \
     meta_init.connectivity.common.rc \
     meta_init.connectivity.rc \
     meta_init.modem.rc \

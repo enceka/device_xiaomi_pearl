@@ -27,13 +27,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.charge_logger.rc",
-    src: "init.charge_logger.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "init.connectivity.common.rc",
     src: "init.connectivity.common.rc",
     sub_dir: "init/hw",
@@ -92,13 +85,6 @@ prebuilt_etc {
 prebuilt_etc {
     name: "init.sensor_2_0.rc",
     src: "init.sensor_2_0.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init_conninfra.rc",
-    src: "init_conninfra.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
