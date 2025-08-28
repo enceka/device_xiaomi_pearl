@@ -203,8 +203,6 @@ vendor/etc/smartpa_param/tfa98xx_voice.bin
 vendor/firmware/tfa98xx.cnt
 
 # Bluetooth
-vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
-vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc
 vendor/lib/libbluetooth_mtk.so
 vendor/lib/libbt-vendor.so
 vendor/lib/libnvram.so
@@ -700,10 +698,6 @@ vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/pearlov64b_mipi_raw/mt68
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/pearls5k4h7_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/pearls5k4h7_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/pearls5k4h7_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/pearls5k4h7_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
 
-# CAS
-vendor/bin/hw/android.hardware.cas@1.2-service-lazy
-vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc
-
 # CIT
 vendor/bin/hw/vendor.xiaomi.cit.wifi@1.0-service
 vendor/etc/init/vendor.xiaomi.cit.wifi@1.0-service.rc
@@ -863,12 +857,7 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.7.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.8.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
 
-# Display (Pixelworks)
-
 # DRM
-vendor/bin/hw/android.hardware.drm@1.4-service.clearkey
-vendor/bin/hw/android.hardware.drm@1.4-service.widevine
-vendor/etc/init/android.hardware.drm@1.4-service.clearkey.rc
 vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc
 vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml
 vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
