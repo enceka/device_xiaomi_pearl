@@ -707,7 +707,6 @@ vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/pearls5k4h7_mipi_raw/mt6
 # CAS
 vendor/bin/hw/android.hardware.cas@1.2-service-lazy
 vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc
-vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml
 
 # CIT
 vendor/bin/hw/vendor.xiaomi.cit.wifi@1.0-service
@@ -1538,7 +1537,6 @@ vendor/etc/sla/slad.conf
 vendor/etc/vintf/manifest/AHBF@2.1-service.xml
 vendor/etc/vintf/manifest/fod.xml
 vendor/etc/vintf/manifest/gnss-default.xml:vendor/etc/vintf/manifest/gnss-mtk.xml
-vendor/etc/vintf/manifest/gnss@2.1-service.xml
 vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml
 vendor/etc/vintf/manifest/lights-mtk-default.xml
 vendor/etc/vintf/manifest/manifest_apuware_apusys.xml
@@ -1550,7 +1548,6 @@ vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.cld.xml
 vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mikeybag.xml
 vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.otrpagent@2.0.xml
 vendor/etc/vintf/manifest/memtrack-mediatek.xml
-vendor/etc/vintf/manifest/power-default.xml
 vendor/etc/vintf/manifest/vendor.mediatek.hardware.neuropilot.agent@1.0-service.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.mimd@1.0-service.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.miperf@1.0.xml
