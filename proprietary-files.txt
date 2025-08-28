@@ -1016,7 +1016,6 @@ vendor/lib/libdolbyottcameracontrol.so
 vendor/lib/libdolbyplugin.so
 vendor/lib/libformatter.so
 vendor/lib/libmp3dec_mtk.so
-vendor/lib/libstagefright_bufferpool@2.0.1.so
 vendor/lib/libstagefright_soft_ac4dec.so
 vendor/lib/libstagefright_soft_ddpdec.so
 vendor/lib/libstagefright_softomx_plugin.so
@@ -1037,7 +1036,6 @@ vendor/lib64/libdolbyottcameracontrol.so
 vendor/lib64/libdolbyplugin.so
 vendor/lib64/libformatter.so
 vendor/lib64/libmp3dec_mtk.so
-vendor/lib64/libstagefright_bufferpool@2.0.1.so
 vendor/lib64/libstagefright_soft_ac4dec.so
 vendor/lib64/libstagefright_soft_ddpdec.so
 vendor/lib64/libstagefrightdolby.so
