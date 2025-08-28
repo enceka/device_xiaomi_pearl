@@ -1866,7 +1866,6 @@ vendor/lib/libhfmanagerwrapper.so
 vendor/lib/libicd_decoder.so
 vendor/lib/libipsec_ims_shr.so
 vendor/lib/liblogwrap_vendor.so
-vendor/lib/libmediautils_vendor.so
 vendor/lib/libmfido_mitee.so
 vendor/lib/libmigpese@1.0.so
 vendor/lib/libminiui.so
@@ -2170,7 +2169,6 @@ vendor/lib64/libifcutils_mtk.so
 vendor/lib64/libipsec_ims_shr.so
 vendor/lib64/libkmsetkey.so
 vendor/lib64/liblogwrap_vendor.so
-vendor/lib64/libmediautils_vendor.so
 vendor/lib64/libmfido_mitee.so
 vendor/lib64/libmiai_deblur.so
 vendor/lib64/libmiai_portraitsupernight.so
