@@ -1587,7 +1587,6 @@ vendor/bin/dmc_core
 vendor/bin/doeapp-memtester
 vendor/bin/doeapp-sat
 vendor/bin/dtc_vendor
-vendor/bin/dumpsys
 vendor/bin/eara_io_service
 vendor/bin/em_hidl
 vendor/bin/factory
