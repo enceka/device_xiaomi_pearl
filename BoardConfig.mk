@@ -8,7 +8,20 @@ DEVICE_PATH := device/xiaomi/pearl
 
 # A/B
 AB_OTA_UPDATER := true
-AB_OTA_PARTITIONS +=
+AB_OTA_PARTITIONS += \
+    system \
+    system_ext \
+    product \
+    vendor \
+    vendor_dlkm \
+    odm \
+    odm_dlkm \
+    boot \
+    vendor_boot \
+    vbmeta \
+    vbmeta_system \
+    vbmeta_vendor
+
 BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture
