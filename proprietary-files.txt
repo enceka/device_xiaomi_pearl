@@ -689,8 +689,7 @@ vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6895/IS
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_param.db;MAKE_COPY_RULE_ONLY
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/pearlgc02m1_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/pearlgc02m1_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/pearlgc02m1_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/pearlgc02m1_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/pearlov16a1_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tunvendor/firmware/lib3a.ccu
-vendor/firmware/lib3a.ccu_dummying_DB/pearlov16a1_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/pearlov16a1_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/pearlov16a1_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/pearlov16a1_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/pearlov16a1_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/pearlov64b_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/pearlov64b_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/pearlov64b_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/pearlov64b_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
