@@ -1484,7 +1484,6 @@ vendor/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.sensor.citsensorservice@1.1-service.rc
 vendor/etc/init/vendor.xiaomi.sensor.communicate@1.0-service.rc
 vendor/etc/init/vibrator-mtk-default.rc
-vendor/etc/init/vndservicemanager.rc
 vendor/etc/init/volte_clientapi_ua.rc
 vendor/etc/init/volte_rcs_ua.rc
 vendor/etc/init/wlan_assistant.rc
