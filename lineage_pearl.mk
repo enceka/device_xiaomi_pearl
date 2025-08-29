@@ -22,7 +22,10 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+# ROM Flags
+WITH_GMS := false
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="pearl-user 15 AP3A.240905.015.A2 OS2.0.205.0.VLHCNXM release-keys"
+    BuildFingerprint="pearl-user 15 AP3A.240905.015.A2 OS2.0.205.0.VLHCNXM release-keys"
 
 BUILD_FINGERPRINT := Xiaomi/pearl/pearl:15/AP3A.240905.015.A2/OS2.0.205.0.VLHCNXM:user/release-keys
