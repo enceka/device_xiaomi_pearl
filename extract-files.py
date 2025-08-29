@@ -98,6 +98,12 @@ blob_fixups: blob_fixups_user_type = {
      'vendor/lib64/libsysenv.so'): blob_fixup()
         .add_needed('libbase_shim.so'),
 
+    ('vendor/lib/libvcodec_oal.so',
+     'vendor/lib64/libvcodec_oal.so'): blob_fixup()
+        .clear_symbol_version('__aeabi_memcpy')
+        .clear_symbol_version('__aeabi_memset')
+        .clear_symbol_version('__gnu_Unwind_Find_exidx'),
+
 }  # fmt: skip
 
 module = ExtractUtilsModule(
