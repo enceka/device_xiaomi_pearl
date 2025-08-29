@@ -1576,7 +1576,6 @@ vendor/etc/miperflock_activity_cfg.xml
 vendor/etc/misound_res.bin
 vendor/etc/misound_res_headphone.bin
 vendor/etc/misound_res_spk.bin
-vendor/etc/mkshrc
 vendor/etc/mono.cnt
 vendor/etc/mpe.conf
 vendor/etc/mtk_omx_core.cfg
