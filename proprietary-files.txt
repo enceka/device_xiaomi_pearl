@@ -195,10 +195,9 @@ vendor/etc/misound_res_spk.bin
 
 # Audio Hardware
 vendor/lib/hw/audio.primary.default.so
-vendor/lib/hw/audio.primary.mediatek.so
-vendor/lib/hw/audio.primary.mt6895.so
+vendor/lib/hw/audio.primary.mediatek.so;SYMLINK=vendor/lib/hw/audio.primary.mt6895.so
 vendor/lib/hw/audio.r_submix.default.so
-vendor/lib/hw/audio.r_submix.mediatek.so;SYMLINK=vendor/lib/hw/audio.primary.mt6895.so
+vendor/lib/hw/audio.r_submix.mediatek.so;SYMLINK=vendor/lib/hw/audio.r_submix.mt6895.so
 vendor/lib/hw/audio.usb.default.so
 vendor/lib/libmisound.so
 vendor/lib/libmisoundcrossfade.so
@@ -207,8 +206,7 @@ vendor/lib64/libmisoundcrossfade.so
 vendor/lib64/hw/audio.primary.default.so
 vendor/lib64/hw/audio.primary.mediatek.so;SYMLINK=vendor/lib64/hw/audio.primary.mt6895.so
 vendor/lib64/hw/audio.r_submix.default.so
-vendor/lib64/hw/audio.r_submix.mediatek.so
-vendor/lib64/hw/audio.r_submix.mt6895.so
+vendor/lib64/hw/audio.r_submix.mediatek.so;SYMLINK=vendor/lib64/hw/audio.r_submix.mt6895.so
 vendor/lib64/hw/audio.usb.default.so
 
 # Audio Firmware
@@ -1184,7 +1182,7 @@ vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc
 vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml
 vendor/etc/vintf/manifest/manifest_apuware_apusys.xml
 vendor/etc/vintf/manifest/manifest_apuware_hmp.xml
-vendor/etc/vintf/manifest/manifest_apuware_utils.
+vendor/etc/vintf/manifest/manifest_apuware_utils.xml
 vendor/etc/vintf/manifest/vendor.mediatek.hardware.neuropilot.agent@1.0-service.xml
 vendor/etc/nnapi_powerhal.json
 vendor/lib/vendor.mediatek.hardware.mmagent@1.0.so
