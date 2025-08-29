@@ -75,7 +75,16 @@ blob_fixups: blob_fixups_user_type = {
      'vendor/lib64/mt6895/lib3a.flash.so',
      'vendor/lib64/mt6895/lib3a.sensors.color.so',
      'vendor/lib64/mt6895/lib3a.sensors.flicker.so'): blob_fixup()
-        .add_needed('liblog.so')
+        .add_needed('liblog.so'),
+
+    'vendor/lib64/libalhLDC.so': blob_fixup()
+	.add_needed('libnativewindow.so')
+        .clear_symbol_version('AHardwareBuffer_allocate')
+        .clear_symbol_version('AHardwareBuffer_describe')
+        .clear_symbol_version('AHardwareBuffer_lock')
+        .clear_symbol_version('AHardwareBuffer_release')
+        .clear_symbol_version('AHardwareBuffer_unlock'),
+
 }  # fmt: skip
 
 module = ExtractUtilsModule(
