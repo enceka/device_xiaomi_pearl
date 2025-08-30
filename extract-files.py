@@ -116,6 +116,8 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('AHardwareBuffer_lock')
         .clear_symbol_version('AHardwareBuffer_unlock'),
 
+    'vendor/lib64/mt6895/libmnl.so': blob_fixup()
+        .add_needed('libcutils.so'),
 
 
 }  # fmt: skip
