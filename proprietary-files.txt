@@ -882,7 +882,6 @@ vendor/lib64/libgpu_aux.so
 vendor/lib64/libgpud.so
 vendor/lib64/libgralloc_metadata.so
 vendor/lib64/libgralloctypes_mtk.so
-vendor/lib64/libhwc2onfbadapter.so
 vendor/lib64/libmiBrightness.so
 vendor/lib64/libmiSensorCtrl.so
 vendor/lib64/libmiXmlParser.so
