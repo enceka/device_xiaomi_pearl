@@ -99,7 +99,9 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libbase_shim.so'),
 
     ('vendor/lib/libvcodec_oal.so',
-     'vendor/lib64/libvcodec_oal.so'): blob_fixup()
+     'vendor/lib/libthha.so',
+     'vendor/lib64/libvcodec_oal.so',
+     'vendor/lib64/libthha.so'): blob_fixup()
         .clear_symbol_version('__aeabi_memcpy')
         .clear_symbol_version('__aeabi_memset')
         .clear_symbol_version('__gnu_Unwind_Find_exidx'),
@@ -113,6 +115,8 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('AHardwareBuffer_getNativeHandle')
         .clear_symbol_version('AHardwareBuffer_lock')
         .clear_symbol_version('AHardwareBuffer_unlock'),
+
+
 
 }  # fmt: skip
 
