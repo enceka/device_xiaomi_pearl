@@ -1688,9 +1688,6 @@ vendor/bin/MI_IC
 vendor/bin/MI_RIC
 vendor/bin/Ois_Tset_Factory_White
 vendor/bin/SMBlemishAnalyzer_new
-vendor/bin/aee_aedv64_v2
-vendor/bin/aee_dumpstatev_v2
-vendor/bin/aeev_v2
 vendor/bin/atci_service
 vendor/bin/atcid
 vendor/bin/audiocmdservice_atci
